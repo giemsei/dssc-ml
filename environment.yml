@@ -2,6 +2,9 @@ name: dssc-ml
 channels:
   - defaults
 dependencies:
-  - python
   - jupyterlab
-
+  - python
+  - pandas
+  - scikit-learn
+  - tweepy
+prefix: /Users/agustin/opt/anaconda3/envs/dssc-ml
