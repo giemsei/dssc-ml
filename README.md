@@ -2,6 +2,13 @@
 
 Author: G. Alessio, A. Campagnolo, M. Polo, G. Sarnelli
 
+### Usage
+```
+conda env create -f environment.yml #create conda env
+conda activate dssc-ml
+#TBD
+```
+
 ### Workflow
 
 When you upload any modification in the (...), comment the commit with the modifications you've done. 

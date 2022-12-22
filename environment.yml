@@ -1,0 +1,5 @@
+name: dssc-ml
+channels:
+  - defaults
+dependencies:
+  - python
