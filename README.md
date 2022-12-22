@@ -22,6 +22,11 @@ git commit
 git push
 ```
 
+To update the environment:
+```
+conda env export --from-history > environment.yml
+```
+
 Files structure:
 1. `twitter-sport-politics.ipynb`
    1. *machine learning project exercise used as references*
