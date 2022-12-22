@@ -15,17 +15,18 @@ git push
 
 Files structure:
 1. `filename`
-   1. *comment*
+    1. *comment*
 2. `filename`
-   1. *comment*
+    1. *comment*
 3.  `filename`
-   1. *comment*
+    1. *comment*
+
 ...
 
 Notes:
-`dateofthenote`: [notes] - `author`
-`dateofthenote`: [notes] - `author`
-`dateofthenote`: [notes] - `author`
+- `dateofthenote`: [notes] - `author`
+- `dateofthenote`: [notes] - `author`
+- `dateofthenote`: [notes] - `author`
 ...
 
 
