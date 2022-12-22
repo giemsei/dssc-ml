@@ -2,10 +2,12 @@
 
 Author: G. Alessio, A. Campagnolo, M. Polo, G. Sarnelli
 
-### Usage
+## Usage
+
+### Create environment
 ```
 conda env create -f environment.yml #create conda env
-conda activate dssc-ml
+conda activate dssc-ml #activate conda env
 #TBD
 ```
 
