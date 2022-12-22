@@ -15,11 +15,13 @@ git push
 
 Files structure:
 1. `twitter-sport-politics.ipynb`
-    1. *machine learning project exercise used as references*
-2. `filename`
-    1. *comment*
-3.  `filename`
-    1. *comment*
+   1. *machine learning project exercise used as references*
+2. `.mpolo/`
+   1. *M. Polo personal notes backup*
+3. `filename`
+   1. *comment*
+4. `filename`
+   1. *comment*
 
 ...
 
