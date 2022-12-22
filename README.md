@@ -14,8 +14,8 @@ git push
 ```
 
 Files structure:
-1. `filename`
-    1. *comment*
+1. `twitter-sport-politics.ipynb`
+    1. *machine learning project exercise used as references*
 2. `filename`
     1. *comment*
 3.  `filename`
