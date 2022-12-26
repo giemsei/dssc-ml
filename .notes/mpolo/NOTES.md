@@ -2,3 +2,5 @@
 1 preprocessing.ipynb
 1 ?.ipynb for modelling and evaluation
 1 .py for usage
+
+fasi design pag 46 slides
