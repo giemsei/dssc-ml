@@ -22,4 +22,4 @@ fasi design pag 46 slides
 
 ---
 
-imo solo assessment della learning technique $(f'_{learn}, f'_{predict})$ con cross validation e poi training su tutto dataset una volta finito tuning
+imo solo assessment della learning technique $(f'_{learn}, f'_{predict})$ con cross validation e poi training su tutto dataset una volta finito "tuning". Ma usiamo random forest classifier perché easy è miglior punto di partenza stando alle slides. Quindi non serve neanche tuning hyperparameters (ok quelli di default) e la cosa migliore è sfruttare il tempo a disposizione per migliorare dataset e feature engineering.
