@@ -11,11 +11,15 @@ Un altro ragazzo di DSSC (penso del secondo anno) aveva cominciato progetto su t
 
 ---
 
-3 file??:
+3 file?? (OUTDATED):
 1 preprocessing.ipynb
 1 ?.ipynb for modelling and evaluation
 1 .py for usage
 
+anzi meglio IMO:
+* 1 (o più) script/notebook per scaricare tweet (no input, dataset raw come output (più dataset?))
+* 1 notebook dove si fa feature eng, assessment, e poi training su tutto dataset (unico input il dataset (o più dataset) raw, unico output il modello )
+* 1 script per usare il modello (input il modello, output testuale)
 ---
 
 fasi design pag 46 slides
