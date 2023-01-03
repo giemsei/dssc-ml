@@ -3,8 +3,7 @@ channels:
   - defaults
 dependencies:
   - jupyterlab
-  - python
   - pandas
+  - python
   - scikit-learn
-  - tweepy
-prefix: /Users/agustin/opt/anaconda3/envs/dssc-ml
+prefix: /home/mathias/anaconda3/envs/dssc-ml

@@ -8,8 +8,11 @@ Author: G. Alessio, A. Campagnolo, M. Polo, G. Sarnelli
 ```
 conda env create -f environment.yml #create conda env
 conda activate dssc-ml #activate conda env
+pip install tweepy #see note below
 #TBD
 ```
+
+Note: `tweepy` isn't available on default channel and currently `conda env export`, `conda env create -f`, ecc. don't work with conda-forge. So it must be installed separately with `conda install -c conda-forge tweepy` or `pip install tweepy`. The former leads to a broken `environment.yml` when exporting, so the latter is preferable even if `conda env export` currently ignores `pip`-installed packages for no reason.
 
 ### Workflow
 
@@ -22,9 +25,13 @@ git commit
 git push
 ```
 
-To update the environment:
+To update the environment file to match the environment:
 ```
 conda env export --from-history > environment.yml
+```
+To update the environment to match the environment file:
+```
+conda env update --file environment.yml
 ```
 
 Files structure:
@@ -44,5 +51,3 @@ Notes:
 - `dateofthenote`: [notes] - `author`
 - `dateofthenote`: [notes] - `author`
 ...
-
-
