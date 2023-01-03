@@ -23,6 +23,7 @@ anzi meglio IMO:
 ---
 
 fasi design pag 46 slides
+preprocessing pag 352 slides
 
 ---
 
