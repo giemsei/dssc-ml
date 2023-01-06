@@ -37,7 +37,7 @@ conda env update --file environment.yml
 Files structure:
 1. `twitter-sport-politics.ipynb`
    1. *machine learning project exercise used as references*
-2. `.notes/`
+2. `notes/`
    1. *Personal notes backup*
 3. `filename`
    1. *comment*
