@@ -40,4 +40,6 @@ media pesata like e retweet (eventualmente con pesi binari se semplifica, quindi
 
 3 categorie basta e avanzano (già bene se si ottengono risultati così). definiscile così: prendi tutti i tweet del dataset e dividi like/retweet di ognuno per numero follower, ordini per valori ottenuti e dividi in 3 parti uguali ottenendo 3 range. Poi sistemi leggermente i range per ottenere numeri belli. Es se medium è tra 0.008032 e 0.031991, fai 0.008 e 0.032 cioè 8 e 32 like/retweet ogni mille follower, oppure 0.01 e 0.03 cioè 1 e 3 ogni 100 follower.
 
-Ma non è detto che in media scalino linearmente con numero follower, potrebbero scalare linearmente con il suo logaritmo o con il quadrato, ecc. cioè bisognerebbe normalizzare dividendo per g(num_follower), ma g non la conosciamo e dobbiamo provare a ricavarla fittando tipo modello lineare num_follower vs media like per molti utenti (magari prima vedi graficamente).
+Ma non è detto che in media scalino linearmente con numero follower, potrebbero scalare linearmente con il suo logaritmo o con il quadrato, ecc. cioè bisognerebbe normalizzare dividendo per g(num_follower), ma g non la conosciamo e dobbiamo provare a ricavarla fittando tipo modello lineare num_follower vs like
+
+ma problema anche fatto che tweet più vecchi hanno più probabilità di avere like per il fatto stesso che sono vecchi (normalizza anche in base a data??)
