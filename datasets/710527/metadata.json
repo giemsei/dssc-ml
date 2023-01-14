@@ -1,0 +1,1 @@
+{"limit": 300, "query": "(context:131.825047692124442624 OR context:152.825047692124442624) -is:retweet -is:reply -is:quote -has:links -has:media lang:en", "end_time": "2023-01-08T15:33:59.579452+00:00", "expansions": ["author_id"], "max_results": 100, "tweet_fields": ["public_metrics"], "user_fields": ["public_metrics"]}
